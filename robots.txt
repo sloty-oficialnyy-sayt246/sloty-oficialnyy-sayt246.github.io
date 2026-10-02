@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sloty-oficialnyy-sayt246.github.io/sitemap.xml

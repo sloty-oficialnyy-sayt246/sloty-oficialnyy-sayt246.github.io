@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Слоты официальный сайт: словарь домена и защиты от фишинга, 2026</title>
+<meta name="description" content="Справочник понятий «официального сайта» слотов на 2026 год: домен оператора и провайдера, страница игры, CDN и домен сборки, TLS и CT-лог, RDAP, зеркало, омоглиф, подпись сборки, DNS и 149-ФЗ.">
+<link rel="canonical" href="https://sloty-oficialnyy-sayt246.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Слоты официальный сайт: словарь признаков подлинного адреса, 2026">
+<meta property="og:description" content="Как по домену, странице игры у провайдера, TLS-сертификату и RDAP отличить официальный адрес слота от фишинга, и что означает блокировка по 149-ФЗ.">
+<meta property="og:url" content="https://sloty-oficialnyy-sayt246.github.io/">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..700;1,400..600&family=Source+Sans+3:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --sand:#f1ebdb;--surface:#faf6ea;--surface-2:#e9e1cd;--elevate:#fffdf6;
+  --ink:#201e16;--ink-2:#4f4a39;--ink-3:#6e6650;--line:#dcd2bb;--line-2:#bcae8f;
+  --olive:#576524;--olive-fill:#67762f;--olive-soft:#e4e7cc;--on-olive:#f7f9ec;
+  --good:#356b4f;--good-soft:#dbe9df;--bad:#99362a;--bad-soft:#f0ddd8;--warn:#876614;--warn-soft:#efe6cb;
+  --sel:#e4e7cc;--trackm:#d8cfb8;
+  --d1:#6a7a2f;--d2:#8a7320;--d3:#43734e;--d4:#9c5a24;--d5:#5a5a8a;
+  --focus:var(--olive);--ring:color-mix(in srgb,var(--olive) 30%,transparent);
+  --disp:"Vollkorn","PT Serif",Georgia,serif;
+  --text:"Source Sans 3","Segoe UI",Roboto,system-ui,sans-serif;
+  --fz-title:clamp(2rem,1.38rem + 2.7vw,3.05rem);--fz-h2:clamp(1.42rem,1.2rem + 1vw,1.82rem);
+  --fz-h3:1.18rem;--fz-lede:clamp(1.05rem,1rem + .35vw,1.19rem);--fz-body:1.06rem;
+  --fz-ui:.94rem;--fz-sm:.86rem;--fz-ms:.76rem;--fz-fig:clamp(1.35rem,1.15rem + .9vw,1.7rem);
+  --sp1:4px;--sp2:8px;--sp3:12px;--sp4:16px;--sp5:20px;--sp6:24px;--sp8:32px;--sp10:40px;--sp12:48px;--sp16:64px;
+  --edge:clamp(16px,4vw,26px);--band:clamp(42px,6vw,76px);
+  --col-read:730px;--col-full:1060px;--col-hero:880px;
+  --rad1:4px;--rad2:7px;--rad3:11px;
+  --sh1:0 1px 0 rgba(32,30,22,.05),0 1px 2px rgba(32,30,22,.06);
+  --sh2:0 2px 7px rgba(32,30,22,.08),0 14px 26px -14px rgba(32,30,22,.2);
+  --sh3:0 0 0 1px var(--line-2),0 22px 40px -26px rgba(32,30,22,.32);
+  --eo:cubic-bezier(.22,1,.36,1);--es:cubic-bezier(.34,1.42,.64,1);
+  --t1:120ms;--t2:200ms;--t3:300ms;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --sand:#15140d;--surface:#1d1b12;--surface-2:#262316;--elevate:#2a2718;
+  --ink:#ece6d2;--ink-2:#b7ae92;--ink-3:#8d8468;--line:#322e1f;--line-2:#4c4631;
+  --olive:#b3c76b;--olive-fill:#9fb354;--olive-soft:#2c2f15;--on-olive:#15140d;
+  --good:#6cc097;--good-soft:#1c3328;--bad:#e07c6d;--bad-soft:#38201c;--warn:#d6a83f;--warn-soft:#332a14;
+  --sel:#2c2f15;--trackm:#36311f;
+  --d1:#b3c76b;--d2:#d2b24a;--d3:#6cc097;--d4:#d9894f;--d5:#9a92e0;
+  --sh1:inset 0 1px 0 rgba(255,255,255,.04),0 1px 2px rgba(0,0,0,.42);
+  --sh2:0 2px 9px rgba(0,0,0,.52),0 18px 34px -18px rgba(0,0,0,.62);
+  --sh3:0 0 0 1px var(--line-2),inset 0 1px 0 rgba(255,255,255,.05),0 28px 48px -30px rgba(0,0,0,.72);
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --sand:#15140d;--surface:#1d1b12;--surface-2:#262316;--elevate:#2a2718;
+  --ink:#ece6d2;--ink-2:#b7ae92;--ink-3:#8d8468;--line:#322e1f;--line-2:#4c4631;
+  --olive:#b3c76b;--olive-fill:#9fb354;--olive-soft:#2c2f15;--on-olive:#15140d;
+  --good:#6cc097;--good-soft:#1c3328;--bad:#e07c6d;--bad-soft:#38201c;--warn:#d6a83f;--warn-soft:#332a14;
+  --sel:#2c2f15;--trackm:#36311f;
+  --d1:#b3c76b;--d2:#d2b24a;--d3:#6cc097;--d4:#d9894f;--d5:#9a92e0;
+  --sh1:inset 0 1px 0 rgba(255,255,255,.04),0 1px 2px rgba(0,0,0,.42);
+  --sh2:0 2px 9px rgba(0,0,0,.52),0 18px 34px -18px rgba(0,0,0,.62);
+  --sh3:0 0 0 1px var(--line-2),inset 0 1px 0 rgba(255,255,255,.05),0 28px 48px -30px rgba(0,0,0,.72);
+  color-scheme:dark;}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--sand);color:var(--ink);font:400 var(--fz-body)/1.62 var(--text);-webkit-font-smoothing:antialiased;hyphens:auto}
+p{margin:0 0 var(--sp3);text-wrap:pretty}
+h1,h2{font-family:var(--disp);text-wrap:balance;margin:0}
+h1{font-size:var(--fz-title);line-height:1.06;letter-spacing:-.006em;font-weight:700;max-inline-size:19ch}
+h2{font-size:var(--fz-h2);line-height:1.18;font-weight:600}
+h3{font-family:var(--disp);font-size:var(--fz-h3);line-height:1.3;font-weight:600;margin:var(--sp6) 0 var(--sp2)}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--olive);text-decoration-thickness:1px;text-underline-offset:3px;transition:color var(--t1) var(--eo),text-decoration-thickness var(--t1) var(--eo)}
+a:hover{color:var(--olive-fill);text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;box-shadow:0 0 0 5px var(--ring)}
+::selection{background:var(--sel);color:var(--ink)}
+.sof-num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+.sof-read{max-width:var(--col-read);margin-inline:auto;padding-inline:var(--edge)}
+.sof-full{max-width:var(--col-full);margin-inline:auto;padding-inline:var(--edge)}
+.sof-hero-w{max-width:var(--col-hero);margin-inline:auto;padding-inline:var(--edge)}
+section[id]{scroll-margin-top:70px}
+.sof-dim{color:var(--ink-2)}.sof-faint{color:var(--ink-3)}
+.sof-sm{font-size:var(--fz-sm);line-height:1.46}
+.sof-ms{font-size:var(--fz-ms);line-height:1.32;letter-spacing:.015em}
+.sof-skip{position:absolute;left:-9999px;top:0;background:var(--olive);color:var(--on-olive);padding:10px 16px;border-radius:0 0 var(--rad2) 0;z-index:60}
+.sof-skip:focus{left:0}
+
+/* шапка */
+.sof-top{position:sticky;top:0;z-index:40;height:56px;background:color-mix(in srgb,var(--sand) 92%,transparent);backdrop-filter:none;border-bottom:1px solid var(--line);transition:box-shadow var(--t2) var(--eo)}
+.sof-top.sof-lifted{box-shadow:var(--sh2)}
+.sof-top .sof-full{height:100%;display:flex;align-items:center;justify-content:space-between;gap:var(--sp4)}
+.sof-brand{display:flex;align-items:center;gap:9px;font-family:var(--disp);font-weight:700;font-size:18px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.sof-brand:hover{color:var(--ink);text-decoration:none}
+.sof-brand svg{width:22px;height:22px;flex:none}
+.sof-nav{display:flex;gap:var(--sp5);font-size:14px;font-weight:500;overflow-x:auto;white-space:nowrap;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 44px),transparent)}
+.sof-nav::-webkit-scrollbar{display:none}
+.sof-nav a{color:var(--ink-3);text-decoration:none;padding-block:4px}
+.sof-nav a:hover{color:var(--ink)}
+.sof-nav a[aria-current="true"]{color:var(--ink);text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:var(--olive);text-underline-offset:6px}
+.sof-lamp{flex:none;width:38px;height:28px;border:1px solid var(--line-2);border-radius:var(--rad2);background:var(--surface);color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:border-color var(--t1),color var(--t1)}
+.sof-lamp:hover{border-color:var(--ink);color:var(--ink)}
+.sof-lamp svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.7}
+.sof-lamp .sof-sun{display:none}
+:root[data-theme="dark"] .sof-lamp .sof-sun{display:block}
+:root[data-theme="dark"] .sof-lamp .sof-moon{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sof-lamp .sof-sun{display:block}:root:not([data-theme="light"]) .sof-lamp .sof-moon{display:none}}
+
+/* hero */
+.sof-hero{padding-block:var(--sp12) var(--sp8)}
+.sof-date{font-size:var(--fz-sm);color:var(--ink-3);margin-bottom:var(--sp2)}
+.sof-hero h1{margin:var(--sp2) 0 var(--sp4)}
+.sof-lede{font-size:var(--fz-lede);line-height:1.52;color:var(--ink-2);max-inline-size:60ch;margin-bottom:var(--sp6)}
+.sof-abstract{background:var(--elevate);border:1px solid var(--line-2);border-left:none;border-radius:var(--rad3);padding:var(--sp6) var(--sp6);box-shadow:var(--sh3)}
+.sof-abstract h2{font-size:1.2rem;margin-bottom:var(--sp2)}
+.sof-abstract p{font-size:var(--fz-ui);color:var(--ink-2);margin-bottom:var(--sp3)}
+.sof-abstract p:last-child{margin-bottom:0}
+.sof-tag{display:inline-block;font-size:var(--fz-ms);font-weight:600;letter-spacing:.015em;border:1px solid var(--olive);color:var(--olive);border-radius:var(--rad1);padding:2px 9px;margin-bottom:var(--sp3)}
+
+/* секции-статьи */
+.sof-art{padding-block:var(--band)}
+.sof-art + .sof-art{border-top:1px solid var(--line)}
+.sof-head{display:grid;grid-template-columns:auto 1fr;align-items:baseline;gap:var(--sp3);margin-bottom:var(--sp4)}
+.sof-ix{font-family:var(--disp);font-size:var(--fz-fig);color:var(--olive);font-variant-numeric:tabular-nums;font-weight:600;line-height:1}
+@media (max-width:640px){.sof-head{grid-template-columns:1fr;gap:var(--sp1)}}
+.sof-term{display:inline-block;font-family:var(--text);font-size:var(--fz-ms);font-weight:600;color:var(--ink-3);letter-spacing:.04em;text-transform:none;margin-bottom:6px}
+.sof-prose{max-inline-size:68ch}
+.sof-prose p{margin-bottom:var(--sp3)}
+.sof-ans{font-size:var(--fz-lede);line-height:1.5;color:var(--ink);background:var(--olive-soft);border:1px solid color-mix(in srgb,var(--olive) 30%,var(--line));border-radius:var(--rad2);padding:var(--sp4) var(--sp5);margin-bottom:var(--sp5);max-inline-size:72ch}
+.sof-ans b{font-weight:700}
+.sof-xref{font-size:var(--fz-sm);color:var(--ink-3)}
+.sof-xref a{color:var(--ink-2)}
+
+/* дефиниции внутри раздела */
+.sof-defs{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--rad3);overflow:hidden;margin:var(--sp5) 0}
+@media (min-width:720px){.sof-defs{grid-template-columns:1fr 1fr}}
+.sof-defs div{background:var(--surface);padding:var(--sp4) var(--sp5);margin:0}
+.sof-defs dt{font-family:var(--disp);font-weight:600;font-size:1.02rem;color:var(--ink);margin-bottom:3px}
+.sof-defs dt .sof-lat{font-family:var(--text);font-size:var(--fz-ms);font-weight:500;color:var(--ink-3);letter-spacing:.02em}
+.sof-defs dd{margin:0;font-size:var(--fz-ui);color:var(--ink-2);line-height:1.5}
+
+/* таблицы */
+.sof-tw{border:1px solid var(--line);border-radius:var(--rad3);overflow-x:auto;scrollbar-gutter:stable;background:var(--surface);margin:var(--sp5) 0}
+table{border-collapse:collapse;width:100%;font-size:var(--fz-ui);line-height:1.42}
+table.sof-wide{min-width:640px}
+caption{caption-side:top;text-align:left;font-size:var(--fz-sm);color:var(--ink-3);padding:var(--sp3) var(--sp4) var(--sp2)}
+thead th{font-size:13px;font-weight:600;color:var(--ink-2);text-align:left;padding:var(--sp3) var(--sp4);border-bottom:2px solid var(--line-2);background:var(--surface);white-space:nowrap}
+tbody td,tbody th{padding:13px var(--sp4);border-top:1px solid var(--line);vertical-align:top;text-align:left;font-weight:400}
+tbody tr:first-child td,tbody tr:first-child th{border-top:0}
+tbody tr:hover td,tbody tr:hover th{background:var(--surface-2);transition:background-color var(--t1) var(--eo)}
+.sof-r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sof-orig{color:var(--good);font-weight:600}
+.sof-fish{color:var(--bad);font-weight:600}
+.sof-key{font-weight:600;color:var(--ink)}
+.sof-tw.sof-inset{margin-top:var(--sp4);box-shadow:none}
+
+/* фигуры */
+figure.sof-fig{margin:var(--sp6) 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--rad3);padding:var(--sp4) var(--sp5)}
+@media (min-width:980px){figure.sof-fig{margin-inline:-28px}}
+figure.sof-fig svg{display:block;max-width:100%;overflow:visible}
+figure.sof-fig svg text{font-family:var(--text);fill:var(--ink-2)}
+figure.sof-fig figcaption{font-size:var(--fz-sm);color:var(--ink-3);margin-top:var(--sp3)}
+.sof-legend{display:flex;gap:var(--sp4);flex-wrap:wrap;font-size:13px;color:var(--ink-2);margin-top:var(--sp2)}
+.sof-legend span{display:inline-flex;align-items:center;gap:6px}
+.sof-swatch{width:13px;height:13px;border-radius:3px;flex:none}
+
+/* схема домена */
+.sof-flow{display:grid;gap:var(--sp3);margin:var(--sp5) 0}
+@media (min-width:760px){.sof-flow{grid-template-columns:repeat(3,1fr);align-items:stretch}}
+.sof-node{background:var(--surface);border:1px solid var(--line-2);border-radius:var(--rad3);padding:var(--sp4) var(--sp5);position:relative}
+.sof-node h3{margin:0 0 4px;font-size:1.02rem}
+.sof-node p{margin:0;font-size:var(--fz-sm);color:var(--ink-2)}
+.sof-node code{font-family:ui-monospace,"Cascadia Code",Consolas,monospace;font-size:.8rem;color:var(--olive-fill);background:var(--olive-soft);padding:1px 6px;border-radius:var(--rad1);display:inline-block;margin-top:6px}
+.sof-node .sof-step{font-size:var(--fz-ms);color:var(--ink-3);font-variant-numeric:tabular-nums}
+
+/* указатель */
+.sof-index{columns:2;column-gap:var(--sp8);margin:var(--sp4) 0 0;padding:0;list-style:none}
+@media (max-width:640px){.sof-index{columns:1}}
+.sof-index li{break-inside:avoid;display:flex;justify-content:space-between;gap:var(--sp3);padding:7px 0;border-bottom:1px dotted var(--line-2);font-size:var(--fz-ui)}
+.sof-index a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+.sof-index a:hover{border-bottom-color:var(--olive)}
+.sof-index .sof-to{color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap;font-size:var(--fz-sm)}
+
+/* списки признаков */
+ul.sof-signs{list-style:none;padding:0;margin:var(--sp3) 0 0;display:grid;gap:var(--sp3)}
+@media (min-width:720px){ul.sof-signs{grid-template-columns:1fr 1fr;gap:var(--sp3) var(--sp8)}}
+ul.sof-signs li{display:grid;grid-template-columns:22px 1fr;gap:var(--sp2);font-size:var(--fz-ui);color:var(--ink-2)}
+ul.sof-signs li svg{width:17px;height:17px;margin-top:3px;flex:none}
+ul.sof-signs b{color:var(--ink);font-weight:600}
+
+/* details */
+.sof-faq{border-top:1px solid var(--line);max-inline-size:72ch;margin-top:var(--sp4)}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;font-weight:600;font-size:1.06rem;font-family:var(--disp);padding:var(--sp4) 0;display:grid;grid-template-columns:1fr 22px;gap:var(--sp4);align-items:center;transition:color var(--t1) var(--eo)}
+summary::-webkit-details-marker{display:none}
+summary:hover{color:var(--olive-fill)}
+summary .sof-pm{width:15px;height:15px;stroke:var(--ink-3);stroke-width:2;fill:none;transition:transform var(--t3) var(--es),stroke var(--t1)}
+details[open] summary .sof-pm{transform:rotate(45deg);stroke:var(--olive)}
+details .sof-body{padding-bottom:var(--sp5);color:var(--ink-2);font-size:1rem;line-height:1.6;max-inline-size:72ch}
+details .sof-body p{margin-bottom:var(--sp2)}
+
+/* канал, забота, подвал */
+.sof-care{border-top:1px solid var(--line-2);padding-top:var(--sp8)}
+.sof-care h2{font-size:1.4rem;display:flex;align-items:center;gap:var(--sp3)}
+.sof-age{font-family:var(--text);font-size:var(--fz-ms);font-weight:700;border:1px solid var(--ink-2);border-radius:var(--rad1);padding:1px 7px;color:var(--ink-2)}
+.sof-channel{border-top:1px solid var(--line-2);margin-top:var(--sp8);padding-block:var(--sp8);display:flex;flex-wrap:wrap;gap:var(--sp4);align-items:center;justify-content:space-between}
+.sof-channel .sof-ct{font-family:var(--disp);font-weight:600;font-size:1.18rem;max-inline-size:40ch}
+.sof-btn{display:inline-flex;align-items:center;gap:9px;font:600 var(--fz-ui)/1 var(--text);padding:12px 20px;border-radius:var(--rad2);background:var(--olive);color:var(--on-olive);text-decoration:none;white-space:nowrap;transition:background-color var(--t1) var(--eo),transform var(--t2) var(--es)}
+.sof-btn:hover{background:var(--olive-fill);color:var(--on-olive);text-decoration:none}
+.sof-btn:active{transform:scale(.98)}
+.sof-btn svg{width:17px;height:17px;fill:currentColor}
+footer{background:var(--surface-2);border-top:1px solid var(--line);padding-block:var(--sp8);font-size:var(--fz-sm);color:var(--ink-3);margin-top:var(--sp10)}
+footer .sof-full{display:grid;gap:var(--sp5)}
+@media (min-width:760px){footer .sof-full{grid-template-columns:1.3fr 1fr 1fr}}
+footer p{margin-bottom:var(--sp2)}
+footer b{color:var(--ink-2);font-weight:600}
+footer a{color:var(--ink-2)}
+@media (prefers-reduced-motion:reduce){*{transition-duration:1ms!important;animation-duration:1ms!important}.sof-btn:active{transform:none}html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","@id":"https://sloty-oficialnyy-sayt246.github.io/#page",
+ "headline":"Слоты официальный сайт: словарь признаков подлинного адреса, 2026",
+ "description":"Справочник понятий официального сайта слотов: домен оператора и провайдера, страница игры, CDN и домен сборки, TLS и CT-лог, RDAP, зеркало, омоглиф, подпись сборки, DNS и 149-ФЗ.",
+ "inLanguage":"ru","datePublished":"2026-10-01","dateModified":"2026-10-01",
+ "author":{"@type":"Organization","name":"Редакция справочника «Апекс»"},
+ "publisher":{"@type":"Organization","name":"Апекс"},
+ "mainEntityOfPage":"https://sloty-oficialnyy-sayt246.github.io/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","@id":"https://sloty-oficialnyy-sayt246.github.io/#faq",
+ "mainEntity":[
+  {"@type":"Question","name":"Что вообще считать официальным сайтом слота, если сам слот делает провайдер, а не оператор?","acceptedAnswer":{"@type":"Answer","text":"Официальных адресов два, и они разные по роли. Домен провайдера — это адрес студии, которая выпустила слот и держит его сервер и страницу игры с инфо-окном. Домен оператора — адрес площадки, где у слота есть касса, счёт и баланс. Подлинность оператора подтверждают реестр лицензии, TLS-сертификат и запись RDAP; подлинность самого слота — то, что он грузится с домена провайдера, а не с чужого сервера. Эти проверки независимы: домен оператора может быть настоящим, а слот на нём — скриптовой копией."}},
+  {"@type":"Question","name":"Почему адрес открывается, а в браузере написано, что соединение небезопасно?","acceptedAnswer":{"@type":"Answer","text":"Предупреждение относится к TLS-сертификату, а не к содержанию. Чаще всего это значит, что сертификат просрочен, выписан на другое имя или самоподписан. На странице входа, где вводят пароль, это повод остановиться: подделки часто поднимают HTTPS на самоподписанном или наспех выпущенном сертификате. Имя в сертификате должно совпадать с доменом в адресной строке посимвольно, а сам выпуск виден в публичном логе Certificate Transparency."}},
+  {"@type":"Question","name":"Как заранее отличить настоящий домен от зеркала с подменой одной буквы?","acceptedAnswer":{"@type":"Answer","text":"Подмена буквы — это омоглиф: латинская a вместо кириллической, цифра 1 вместо l, домен в другой зоне. Глазом такие адреса почти не отличаются. Надёжнее сверять не написание, а регистрацию: дату создания домена и регистратора в RDAP, имя в TLS-сертификате и историю его выпуска в CT-логе. Официальный домен обычно старше, а свежесозданный домен-двойник выдаёт себя датой регистрации в несколько дней или недель."}},
+  {"@type":"Question","name":"Что означает, если официальный адрес перестал открываться?","acceptedAnswer":{"@type":"Answer","text":"Недоступность имеет несколько причин, и их важно различать. Первая — ограничение доступа по решению в рамках 149-ФЗ: домен внесён в единый реестр, и операторы связи закрывают к нему доступ; это административная мера, а не признак мошенничества. Вторая — домен-двойник сам исчез или заблокирован как фишинговый. Третья — технический сбой DNS или хостинга. Правильная реакция — не искать обход, а проверить официальный домен по реестру лицензии и RDAP. Инструкций по обходу блокировок справочник не даёт."}},
+  {"@type":"Question","name":"Зачем проверять подпись и контрольную сумму клиента, если можно играть в браузере?","acceptedAnswer":{"@type":"Answer","text":"Проверка нужна тем, кто ставит приложение или APK. Официальная сборка подписана цифровой подписью издателя, и у неё публикуют контрольную сумму — хеш файла. Если подпись отсутствует или имя издателя не совпадает, файл мог быть пересобран с посторонним кодом. В браузере роль подписи играет связка TLS-сертификата и Subresource Integrity, когда скрипты страницы снабжены хешем в атрибуте integrity."}},
+  {"@type":"Question","name":"Домен оператора настоящий — значит, слотам на нём можно доверять?","acceptedAnswer":{"@type":"Answer","text":"Не автоматически. Настоящий домен оператора подтверждает только личность площадки. Отдельно проверяют, что конкретный слот грузится со страницы игры у провайдера, а его файлы приходят с домена сборки провайдера или его CDN, а не с сервера самой площадки. Скриптовая копия живёт на подлинном с виду домене, но обращается к чужому адресу загрузки — это видно в сетевых запросах страницы и в инфо-окне игры."}}
+ ]}
+</script>
+</head>
+<body>
+<a class="sof-skip" href="#spravka">К содержанию справочника</a>
+
+<header class="sof-top" id="top">
+  <div class="sof-full">
+    <a class="sof-brand" href="#top">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="9" fill="var(--olive)"/><path d="M24 11 36 35H12z" fill="none" stroke="var(--on-olive)" stroke-width="2.6" stroke-linejoin="round"/><circle cx="24" cy="32" r="2.6" fill="var(--on-olive)"/></svg>
+      Апекс
+    </a>
+    <nav class="sof-nav" aria-label="Разделы справочника">
+      <a href="#dva-domena">Два домена</a><a href="#stranica-igry">Страница игры</a><a href="#cdn">CDN и сборка</a><a href="#dns">DNS</a><a href="#tls">TLS и CT-лог</a><a href="#rdap">RDAP</a><a href="#zerkalo">Зеркало</a><a href="#podpis">Подпись</a><a href="#blokirovka">Блокировка</a><a href="#ukazatel">Указатель</a>
+    </nav>
+    <button class="sof-lamp" id="lamp" type="button" aria-label="Переключить тему">
+      <svg class="sof-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5Z"/></svg>
+      <svg class="sof-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="sof-hero sof-hero-w">
+  <p class="sof-date sof-num">Обновлено 1 октября 2026 · Москва</p>
+  <h1>Слоты официальный сайт: словарь признаков, по которым оригинал отличается от фишинга</h1>
+  <p class="sof-lede">Справочник на 2026 год о том, что стоит за словами «официальный сайт», когда речь о слотах. Здесь нет рейтинга и нет ссылок на площадки. Здесь разобраны понятия адреса — домен, страница игры, сертификат, запись регистрации, — по которым подлинный ресурс отличают от подделки, и объяснено, что означает недоступность адреса. Способов обхода блокировок справочник не приводит.</p>
+
+  <div class="sof-abstract" id="spravka">
+    <span class="sof-tag">Как пользоваться</span>
+    <h2>Короткий ответ до разделов</h2>
+    <p>У слота два официальных адреса, а не один. <b>Домен провайдера</b> — адрес студии, которая сделала игру и держит её страницу и сервер. <b>Домен оператора</b> — адрес площадки, где у игры есть касса и баланс. Поэтому «официальный сайт» всегда уточняют: сайт игры или сайт площадки.</p>
+    <p>Подлинность проверяют тремя независимыми взглядами: регистрацией домена (RDAP), сертификатом имени (TLS и его публичный лог) и источником файлов игры (домен сборки и CDN провайдера). Разделы ниже раскрывают каждое понятие и ссылаются друг на друга; в конце — алфавитный указатель терминов с номером раздела.</p>
+  </div>
+</section>
+
+<!-- 01 Два домена -->
+<section class="sof-art" id="dva-domena">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">01</span><div><span class="sof-term">домен оператора · домен провайдера</span><h2>Два адреса за одним слотом: площадка и студия</h2></div></div>
+    <p class="sof-ans">У любого слота есть <b>два официальных адреса</b>, и это главная причина путаницы вокруг «официального сайта». Домен провайдера — адрес разработчика игры; домен оператора — адрес площадки, где игра встроена и где есть счёт. Подделывают, как правило, второй: копируют оформление площадки, но файлы игры тянут не оттуда.</p>
+    <div class="sof-prose">
+      <p>Слот как программа принадлежит студии-провайдеру. Провайдер держит исходный код, сервер игровой логики и страницу запуска с инфо-окном, где указаны версия выпуска, таблица выплат и теоретический возврат. Площадка-оператор не хранит игру у себя: она встраивает её через кадр или ссылку запуска и отвечает за кассу, баланс, бонусы и поддержку. Когда игрок ищет «официальный сайт», он чаще имеет в виду адрес оператора, но проверять приходится оба уровня, потому что подделать можно каждый по отдельности.</p>
+      <p>Домен оператора — это имя в адресной строке, где заводят счёт и делают ставку. Его подлинность подтверждают запись в реестре лицензии, совпадение имени в <a href="#tls">TLS-сертификате</a> и данные регистрации в <a href="#rdap">RDAP</a>. Домен провайдера — имя, с которого реально приходит сам слот; если игра грузится с него, а не с сервера площадки, это признак оригинала, а не <a href="#zerkalo">скриптовой копии</a>. Разделить два уровня важно: настоящий домен оператора ещё не гарантирует, что конкретная игра на нём настоящая.</p>
+      <p>В рублёвом сегменте лобби площадок собирают через агрегаторы — SOFTSWISS, Slotegrator, EveryMatrix. Агрегатор отдаёт запуск игры со своей инфраструктуры, поэтому в сетевых запросах страницы рядом с доменом оператора видны домены провайдера и агрегатора. Это нормальная цепочка; ненормально, когда файлы игры приходят с постороннего адреса, никак не связанного ни со студией, ни с известным агрегатором.</p>
+    </div>
+    <dl class="sof-defs">
+      <div><dt>Домен оператора</dt><dd>Имя площадки, где у слота есть касса, счёт и бонусы. Проверяется реестром лицензии, сертификатом и RDAP.</dd></div>
+      <div><dt>Домен провайдера <span class="sof-lat">game provider</span></dt><dd>Имя студии-разработчика, где живут код игры, сервер логики и официальная страница запуска с инфо-окном.</dd></div>
+      <div><dt>Агрегатор <span class="sof-lat">aggregator</span></dt><dd>Посредник, который подключает к площадке лобби из игр многих студий одним каналом. Его домен — законное звено цепочки загрузки.</dd></div>
+      <div><dt>Инфо-окно игры</dt><dd>Служебный экран слота с версией выпуска, таблицей выплат и теоретическим возвратом. Открывается из самой игры, а не из раздела площадки.</dd></div>
+    </dl>
+    <p class="sof-xref">Дальше: как выглядит <a href="#stranica-igry">страница игры у провайдера</a> и откуда приходят её файлы — раздел <a href="#cdn">о CDN и домене сборки</a>.</p>
+  </div>
+</section>
+
+<!-- 02 Страница игры -->
+<section class="sof-art" id="stranica-igry">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">02</span><div><span class="sof-term">страница запуска · iframe · launch URL</span><h2>Страница игры у провайдера: где слот живёт на самом деле</h2></div></div>
+    <p class="sof-ans">Слот на площадке почти всегда открыт <b>в кадре</b> (iframe), а содержимое этого кадра приходит по адресу запуска с домена провайдера или агрегатора. Этот адрес — и есть «страница игры у провайдера». Если его подменили на чужой, оформление останется прежним, а игра будет копией.</p>
+    <div class="sof-prose">
+      <p>Технически запуск устроен так: площадка запрашивает у провайдера ссылку сессии, провайдер отдаёт временный адрес запуска со служебным токеном, и этот адрес открывается внутри кадра на странице площадки. Адресная строка браузера при этом показывает домен оператора, а реальный источник игры скрыт внутри кадра. Поэтому «официальный сайт слота» нельзя прочитать только по адресной строке — нужно смотреть, какой адрес открыт в самом кадре игры.</p>
+      <p>Проверка занимает минуту и не требует специальных программ. Инфо-окно самой игры всегда называет студию и версию выпуска; если провайдер в инфо-окне не совпадает с тем, что заявлено в описании, перед вами переупаковка. Второй взгляд — сетевые запросы страницы: домен, с которого грузятся ресурсы кадра, должен принадлежать студии или известному агрегатору. Домен сборки у оригинала стабилен для всех площадок, где стоит игра этой студии, и это свойство трудно подделать дёшево.</p>
+      <p>Отдельный случай — «демо» без входа. Официальная демо-версия запускается с той же страницы провайдера, просто без денежного счёта, и показывает ту же версию возврата, что боевая. Демо, которое грузится с постороннего домена и показывает завышенный возврат, — приманка: по ней формируют ложное впечатление о щедрости игры, которой на реальном счёте не будет.</p>
+    </div>
+    <p class="sof-xref">Понятие домена, с которого приходят файлы кадра, раскрыто в разделе <a href="#cdn">о CDN и домене сборки</a>; как имя превращается в адрес сервера — <a href="#dns">раздел о DNS</a>.</p>
+  </div>
+</section>
+
+<!-- 03 CDN и сборка + схема -->
+<section class="sof-art" id="cdn">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">03</span><div><span class="sof-term">CDN · домен сборки · asset host</span><h2>CDN и домен загрузки сборки: откуда приходят файлы игры</h2></div></div>
+    <p class="sof-ans">Картинки, скрипты и звуки слота грузятся не с площадки, а с <b>домена сборки</b> провайдера через сеть доставки контента (CDN). Этот домен — технический паспорт игры: у оригинала он один и тот же везде, у копии подменён на чужой адрес.</p>
+    <div class="sof-prose">
+      <p>Сеть доставки контента — это распределённые серверы, которые отдают тяжёлые файлы с ближайшей к игроку точки. Провайдер выкладывает собранную версию игры на свой домен сборки, а CDN раздаёт её копии по миру. Благодаря этому у одной студии домен сборки постоянен: та же игра на десяти разных площадках обращается к одному адресу загрузки. Это и делает домен сборки надёжным признаком подлинности — подделке пришлось бы либо держать свою копию файлов, либо ссылаться на чужой адрес, и то и другое заметно в сетевых запросах.</p>
+      <p>Путь официального слота укладывается в три узла. Браузер открывает домен оператора, внутри страницы в кадре открывается адрес запуска у провайдера, а файлы кадра приходят с домена сборки через CDN. Схема ниже показывает эти три узла и то, что проверяют на каждом. Если любой из трёх адресов ведёт в сторону от студии и известного агрегатора, цепочка разорвана, и «официальность» сайта под вопросом независимо от того, как он выглядит.</p>
+    </div>
+
+    <div class="sof-flow" role="list" aria-label="Путь официального слота по трём узлам">
+      <div class="sof-node" role="listitem"><span class="sof-step sof-num">узел 1</span><h3>Домен оператора</h3><p>Площадка со счётом и кассой. Проверяют реестром лицензии, TLS-именем и RDAP.</p><code>operator.example</code></div>
+      <div class="sof-node" role="listitem"><span class="sof-step sof-num">узел 2</span><h3>Страница запуска у провайдера</h3><p>Открыта в кадре. Инфо-окно называет студию и версию выпуска.</p><code>launch.provider.example</code></div>
+      <div class="sof-node" role="listitem"><span class="sof-step sof-num">узел 3</span><h3>Домен сборки и CDN</h3><p>Отдаёт файлы игры. У оригинала один и тот же для всех площадок студии.</p><code>cdn.provider.example</code></div>
+    </div>
+
+    <p class="sof-prose">Домены в схеме записаны в зоне <code>.example</code> намеренно: это служебная зона из стандарта для примеров, она никому не принадлежит и не ведёт на реальные ресурсы. На живом слоте на их месте будут настоящие имена студии и площадки.</p>
+    <p class="sof-xref">Как подделывают написание этих имён — <a href="#zerkalo">раздел о зеркале и омоглифах</a>; чем подтверждается подлинность файла клиента — <a href="#podpis">раздел о подписи сборки</a>.</p>
+  </div>
+</section>
+
+<!-- 04 DNS -->
+<section class="sof-art" id="dns">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">04</span><div><span class="sof-term">DNS · зона · NS · резолвер · TTL</span><h2>DNS: как имя превращается в адрес сервера</h2></div></div>
+    <p class="sof-ans">Домен — это имя, а не адрес. Чтобы открыть сайт, браузер спрашивает <b>систему доменных имён</b> (DNS), какой IP-адрес закреплён за именем. На этом переводе и держатся многие проверки подлинности: имя одно, а вот куда оно ведёт, подделка меняет легче всего.</p>
+    <div class="sof-prose">
+      <p>Система доменных имён — это телефонная книга интернета. Имя читается справа налево: крайняя правая часть — доменная зона верхнего уровня (<code>.com</code>, <code>.ru</code>), левее — апекс-домен, который регистрируют (это и есть «корневое» имя площадки), ещё левее — поддомены вроде <code>launch</code> или <code>cdn</code>. За зону отвечает реестр, за апекс-домен — регистратор и владелец, а конкретные адреса серверов назначают серверы имён (NS), указанные в настройках домена.</p>
+      <p>Когда игрок открывает адрес, запрос идёт к резолверу — обычно серверу провайдера связи, — который по цепочке выясняет IP и запоминает ответ на срок жизни записи (TTL). Из-за кеширования смена сервера видна не сразу: старый ответ живёт у резолвера до истечения TTL. Это объясняет, почему адрес иногда открывается по-разному у разных людей или перестаёт открываться не мгновенно.</p>
+      <p>Для распознавания подделки важны два следствия. Во-первых, одно имя может указывать на разные адреса в разное время, поэтому «работает или нет» — слабый признак; крепче смотреть на регистрацию и сертификат. Во-вторых, домен-двойник живёт в своей отдельной зоне DNS, с собственными серверами имён, и это видно в данных регистрации. Апекс-домен оригинала — та самая опорная точка, с которой сверяют все поддомены запуска и сборки.</p>
+    </div>
+    <dl class="sof-defs">
+      <div><dt>Доменная зона <span class="sof-lat">TLD</span></dt><dd>Крайняя правая часть имени: <code>.com</code>, <code>.ru</code>, <code>.net</code>. За неё отвечает реестр зоны.</dd></div>
+      <div><dt>Апекс-домен <span class="sof-lat">apex</span></dt><dd>Регистрируемое корневое имя площадки без поддоменов. Опорная точка для всех проверок.</dd></div>
+      <div><dt>Сервер имён <span class="sof-lat">NS</span></dt><dd>Сервер, который отдаёт адреса для домена. Чужие NS у «того же» сайта — повод насторожиться.</dd></div>
+      <div><dt>Срок жизни записи <span class="sof-lat">TTL</span></dt><dd>Время, которое резолвер хранит ответ. Из-за него изменения в DNS видны с задержкой.</dd></div>
+    </dl>
+    <p class="sof-xref">Кто и когда зарегистрировал домен, читают в <a href="#rdap">RDAP</a>; чьё имя закреплено сертификатом — <a href="#tls">раздел о TLS и CT-логе</a>.</p>
+  </div>
+</section>
+
+<!-- 05 TLS + CT, data figure 1 -->
+<section class="sof-art" id="tls">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">05</span><div><span class="sof-term">TLS · HTTPS · SAN · Certificate Transparency</span><h2>TLS-сертификат и прозрачность выпуска: чей это адрес</h2></div></div>
+    <p class="sof-ans">Замок в адресной строке означает шифрование по протоколу <b>TLS</b>, но сам по себе не значит «честный сайт». Ценность сертификата в другом: он привязан к имени домена, а каждый его выпуск попадает в публичный лог Certificate Transparency, где историю имени можно проверить.</p>
+    <div class="sof-prose">
+      <p>TLS-сертификат удостоверяет, что соединение идёт именно с тем именем, которое в нём записано. Имя домена перечислено в поле альтернативных имён (SAN); оно должно совпадать с адресной строкой посимвольно. Выдаёт сертификат удостоверяющий центр, и по типу проверки различают простой уровень (подтверждён только контроль над доменом) и расширенный (подтверждена и организация). Подделки обычно берут простой сертификат на свежий домен-двойник: шифрование есть, но за именем — никто.</p>
+      <p>Главный инструмент против этого — Certificate Transparency: удостоверяющие центры обязаны публиковать каждый выпуск в открытых журналах, а браузеры требуют доказательства такой публикации. Благодаря этому историю сертификатов любого имени можно посмотреть и увидеть, когда для домена впервые выписали сертификат. У домена-двойника эта дата будет недавней и не совпадёт с историей настоящего имени.</p>
+      <p>Срок, на который выдают сертификаты, за годы резко сократился — это снижает цену ошибки и ускоряет отзыв скомпрометированных имён. График ниже показывает предельный срок действия публичного TLS-сертификата по решениям отраслевого CA/Browser Forum: с пяти лет он опустился до года, а дальше запланировано снижение до полутора месяцев. Для проверки подлинности это удобно: чем короче жизнь сертификата, тем свежее запись в логе и тем заметнее несоответствие у подделки.</p>
+    </div>
+
+    <figure class="sof-fig" id="fig-tls">
+      <svg width="100%" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="ftls-t ftls-d" preserveAspectRatio="xMinYMin meet">
+        <title id="ftls-t">Предельный срок действия публичного TLS-сертификата по годам</title>
+        <desc id="ftls-d">С 2015 по 2029 год максимальный срок падает с 1185 дней до 47 дней: 2015 — 1185, 2018 — 825, 2020 — 398, 2026 — 200, 2029 — 47.</desc>
+        <g stroke="var(--line)"><line x1="150" y1="10" x2="150" y2="210"/><line x1="285" y1="10" x2="285" y2="210"/><line x1="420" y1="10" x2="420" y2="210"/><line x1="555" y1="10" x2="555" y2="210"/><line x1="690" y1="10" x2="690" y2="210"/></g>
+        <g font-size="12" fill="var(--ink-3)" class="sof-num" text-anchor="middle"><text x="150" y="230">0</text><text x="285" y="230">300</text><text x="420" y="230">600</text><text x="555" y="230">900</text><text x="690" y="230">1200</text></g>
+        <text x="690" y="246" font-size="11" fill="var(--ink-3)" text-anchor="end">дней</text>
+        <g font-size="13" fill="var(--ink-2)" font-weight="600"><text x="0" y="33">2015</text><text x="0" y="73">2018</text><text x="0" y="113">2020</text><text x="0" y="153">2026</text><text x="0" y="193">2029</text></g>
+        <g><rect x="150" y="22" width="533" height="18" rx="4" fill="var(--d1)"/><rect x="150" y="62" width="371" height="18" rx="4" fill="var(--d1)"/><rect x="150" y="102" width="179" height="18" rx="4" fill="var(--d2)"/><rect x="150" y="142" width="90" height="18" rx="4" fill="var(--d4)"/><rect x="150" y="182" width="21" height="18" rx="4" fill="var(--bad)"/></g>
+        <g font-size="12" class="sof-num" fill="var(--ink-2)"><text x="691" y="36">1185</text><text x="529" y="76">825</text><text x="337" y="116">398</text><text x="248" y="156">200</text><text x="179" y="196">47</text></g>
+      </svg>
+      <figcaption>Предельный срок действия публичного TLS-сертификата, дней, по решениям CA/Browser Forum. Значения на 2026 и 2029 годы — запланированное снижение по решению 2025 года. Крайняя точка выделена цветом как ориентир, а не как оценка.</figcaption>
+      <div class="sof-tw sof-inset"><table class="sof-num"><caption>Те же значения таблицей</caption>
+        <thead><tr><th scope="col">Год</th><th scope="col" class="sof-r">Предельный срок, дней</th><th scope="col" class="sof-r">В месяцах</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">2015</th><td class="sof-r">1185</td><td class="sof-r">≈ 39</td></tr>
+          <tr><th scope="row">2018</th><td class="sof-r">825</td><td class="sof-r">≈ 27</td></tr>
+          <tr><th scope="row">2020</th><td class="sof-r">398</td><td class="sof-r">≈ 13</td></tr>
+          <tr><th scope="row">2026</th><td class="sof-r">200</td><td class="sof-r">≈ 7</td></tr>
+          <tr><th scope="row">2029</th><td class="sof-r">47</td><td class="sof-r">≈ 1,5</td></tr>
+        </tbody></table></div>
+    </figure>
+    <p class="sof-xref">История имени из CT-лога особенно полезна против <a href="#zerkalo">омоглифов</a>; кто владеет именем по документам — <a href="#rdap">раздел о RDAP</a>.</p>
+  </div>
+</section>
+
+<!-- 06 RDAP -->
+<section class="sof-art" id="rdap">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">06</span><div><span class="sof-term">RDAP · WHOIS · регистратор · дата создания</span><h2>RDAP и WHOIS: кто и когда зарегистрировал домен</h2></div></div>
+    <p class="sof-ans">RDAP — современный протокол запроса данных о регистрации домена, пришедший на смену текстовому WHOIS. Он отвечает структурированно: кто регистратор, когда имя создано, когда истекает, какие серверы имён. <b>Дата создания</b> — самый практичный признак: домен-двойник почти всегда молод.</p>
+    <div class="sof-prose">
+      <p>Протокол доступа к регистрационным данным выдаёт по домену машиночитаемый ответ в формате JSON: регистратор, через которого оформлено имя, даты создания, обновления и окончания, статусы домена и серверы имён. WHOIS отвечал тем же по смыслу, но вольным текстом, который трудно разбирать и у которого нет единого формата. RDAP стандартизирован, поддерживает ссылки на ответственный реестр и постепенно стал основным способом справки о домене.</p>
+      <p>Что из этого помогает отличить оригинал. Дата создания: официальный домен площадки обычно существует годы, а двойник заведён недавно — расхождение в месяцы и дни говорит само за себя. Регистратор и серверы имён: у настоящего ресурса они стабильны, у подделки часто другие. Статусы домена вроде запрета на передачу показывают, защищено ли имя от угона. Персональные данные владельца в ответе обычно скрыты службой приватности — это норма и само по себе ни о чём плохом не свидетельствует.</p>
+      <p>RDAP отвечает на вопрос «чей это домен по записи регистрации», тогда как <a href="#tls">сертификат</a> отвечает «кому принадлежит имя в защищённом соединении», а <a href="#dns">DNS</a> — «куда имя сейчас ведёт». Три взгляда независимы, и подделке трудно пройти все три сразу: молодой двойник выдаёт себя датой в RDAP, коротким следом в CT-логе и чужими серверами имён.</p>
+    </div>
+    <dl class="sof-defs">
+      <div><dt>RDAP</dt><dd>Протокол структурированной справки о регистрации домена. Ответ в JSON: регистратор, даты, статусы, серверы имён.</dd></div>
+      <div><dt>WHOIS</dt><dd>Прежний текстовый способ той же справки. Единого формата нет, разбирать труднее; постепенно уступает RDAP.</dd></div>
+      <div><dt>Дата создания</dt><dd>Когда имя впервые зарегистрировано. Свежая дата у «того же» сайта — сильный признак двойника.</dd></div>
+      <div><dt>Служба приватности <span class="sof-lat">privacy</span></dt><dd>Скрытие персональных данных владельца в ответе. Распространено и нейтрально; смотрят на даты и NS, а не на имя.</dd></div>
+    </dl>
+    <p class="sof-xref">Как эти данные применяют против подмены букв и зеркал — следующий <a href="#zerkalo">раздел</a>.</p>
+  </div>
+</section>
+
+<!-- 07 Зеркало + сравнительная таблица -->
+<section class="sof-art" id="zerkalo">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">07</span><div><span class="sof-term">зеркало · омоглиф · IDN · тайпсквоттинг · фишинг</span><h2>Зеркало, омоглиф и фишинг: как подделывают официальный адрес</h2></div></div>
+    <p class="sof-ans">Зеркало — копия сайта на другом домене. У оператора оно бывает служебным, но именно под видом зеркала чаще всего поднимают <b>фишинг</b>: адрес с подменённой буквой (омоглиф) или в другой зоне, визуально неотличимый от настоящего. Отличают его не по написанию, а по регистрации и сертификату.</p>
+    <div class="sof-prose">
+      <p>Омоглиф — это символ, который выглядит как другой: латинская «a» вместо кириллической, цифра «1» вместо строчной «l», «rn», читаемое как «m». В международных доменных именах (IDN) наборов символов много, и адрес с одной подменённой буквой глазом почти не отличить. Тайпсквоттинг — соседний приём: регистрируют имя с частой опечаткой или в другой зоне верхнего уровня и ждут, что игрок ошибётся при наборе. И то и другое ведёт на страницу-копию, где перехватывают логин и платёжные данные.</p>
+      <p>Против подмены написания помогает то, что подделать нельзя дёшево. Апекс-домен настоящей площадки старше — это видно по дате создания в <a href="#rdap">RDAP</a>. Сертификат настоящего имени имеет длинную историю выпусков в <a href="#tls">CT-логе</a>, а у двойника след свежий и короткий. Браузеры к тому же показывают IDN с подозрительным смешением алфавитов в виде punycode — технической записи вида <code>xn--</code>, по которой подмена становится заметной. Таблица ниже сводит признаки: как выглядит узел у оригинала и как — у подделки.</p>
+    </div>
+
+    <div class="sof-tw"><table class="sof-wide"><caption>Признак → оригинал / подделка. Сверяют не вид страницы, а проверяемые свойства адреса.</caption>
+      <thead><tr><th scope="col">Признак</th><th scope="col">У официального адреса</th><th scope="col">У фишинга и двойника</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Написание имени</th><td class="sof-orig">обычные символы одной раскладки</td><td class="sof-fish">подменённая буква, punycode <code>xn--</code>, чужая зона</td></tr>
+        <tr><th scope="row">Дата создания (RDAP)</th><td class="sof-orig">годы существования</td><td class="sof-fish">дни или недели назад</td></tr>
+        <tr><th scope="row">История в CT-логе</th><td class="sof-orig">длинная цепочка выпусков</td><td class="sof-fish">один свежий сертификат</td></tr>
+        <tr><th scope="row">Имя в TLS-сертификате</th><td class="sof-orig">совпадает с адресной строкой</td><td class="sof-fish">иное имя или самоподписанный</td></tr>
+        <tr><th scope="row">Источник файлов игры</th><td class="sof-orig">домен сборки студии и CDN</td><td class="sof-fish">посторонний адрес загрузки</td></tr>
+        <tr><th scope="row">Инфо-окно слота</th><td class="sof-orig">студия и версия совпадают с заявленными</td><td class="sof-fish">нет окна или другой провайдер</td></tr>
+      </tbody>
+    </table></div>
+    <p class="sof-xref">Как подтверждают подлинность устанавливаемого клиента, а не веб-страницы — <a href="#podpis">раздел о подписи сборки</a>.</p>
+  </div>
+</section>
+
+<!-- 08 Подпись -->
+<section class="sof-art" id="podpis">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">08</span><div><span class="sof-term">подпись сборки · контрольная сумма · SRI</span><h2>Подпись сборки и контрольная сумма: подлинность файла клиента</h2></div></div>
+    <p class="sof-ans">Когда вместо браузера ставят приложение или APK, подлинность проверяют не адресом, а <b>цифровой подписью</b> издателя и контрольной суммой файла. Подпись называет автора сборки, хеш подтверждает, что файл не пересобран. Нет подписи или имя издателя чужое — файл мог нести посторонний код.</p>
+    <div class="sof-prose">
+      <p>Цифровая подпись — это криптографическая печать издателя на установочном файле. Система при установке сверяет печать и показывает имя издателя; если оно не совпадает с заявленным или подпись отсутствует, сборку собрал кто-то другой. Контрольная сумма (хеш) — короткая строка, однозначно вычисленная из содержимого файла: меняется хоть один байт — меняется хеш. Официальные сборки публикуют хеш рядом со ссылкой, чтобы скачанный файл можно было сверить до запуска.</p>
+      <p>У веб-версии аналог подписи — связка <a href="#tls">TLS-сертификата</a> и Subresource Integrity: ключевые скрипты страницы снабжают атрибутом <code>integrity</code> с хешем, и браузер откажется исполнять файл, если он подменён по пути. Это защищает от того, что между сервером и игроком кто-то подложит другой скрипт. Для слотов важно оба уровня: TLS удостоверяет соединение, SRI — конкретные файлы, подпись — установленную программу.</p>
+      <p>Практический вывод: установочный файл берут только со страницы официального домена оператора, а не из поиска по запросу «скачать»; после скачивания сверяют имя издателя в подписи и, если он опубликован, хеш. Пересобранный APK с посторонним кодом — частый способ раздать «клиент казино», который на деле собирает данные. Отсутствие подписи здесь значит ровно то, что автор сборки неизвестен.</p>
+    </div>
+    <dl class="sof-defs">
+      <div><dt>Цифровая подпись <span class="sof-lat">code signing</span></dt><dd>Печать издателя на файле. Система показывает имя автора сборки при установке.</dd></div>
+      <div><dt>Контрольная сумма <span class="sof-lat">hash</span></dt><dd>Строка, вычисленная из файла. Любое изменение меняет её; служит для сверки скачанного.</dd></div>
+      <div><dt>Subresource Integrity <span class="sof-lat">SRI</span></dt><dd>Хеш скрипта в атрибуте integrity. Браузер не исполнит подменённый по пути файл.</dd></div>
+      <div><dt>Переупаковка <span class="sof-lat">repack</span></dt><dd>Пересборка чужого клиента с добавленным кодом. Выдаёт себя отсутствием или подменой подписи.</dd></div>
+    </dl>
+    <p class="sof-xref">Что означает, если официальный адрес перестал открываться, — <a href="#blokirovka">раздел о блокировке и 149-ФЗ</a>.</p>
+  </div>
+</section>
+
+<!-- 09 Блокировка + data figure 2 -->
+<section class="sof-art" id="blokirovka">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">09</span><div><span class="sof-term">149-ФЗ · единый реестр · ограничение доступа · статус 451</span><h2>Блокировка и 149-ФЗ: что означает недоступность адреса</h2></div></div>
+    <p class="sof-ans">Недоступность адреса — не один факт, а несколько разных. Это может быть <b>ограничение доступа</b> по 149-ФЗ, когда домен внесён в единый реестр и операторы связи закрывают к нему доступ; может быть исчезнувший фишинговый двойник; может быть сбой DNS. Справочник объясняет, что означает каждая причина, и не приводит способов обхода.</p>
+    <div class="sof-prose">
+      <p>Федеральный закон «Об информации» (149-ФЗ) и статья 15.1 описывают единый реестр, в который по решению уполномоченных органов вносят адреса с запрещённой информацией; после внесения операторы связи ограничивают доступ. Это административная процедура с установленными сроками уведомления владельца и хостинг-провайдера, а не признак того, что ресурс мошеннический. Корректный ответ сервера на такой случай — код 451, который прямо означает ограничение по юридическим причинам, но на практике игрок чаще видит страницу-заглушку провайдера связи.</p>
+      <p>Отличать причины важно, потому что реакция на них разная. Если недоступен официальный домен из-за ограничения доступа — это вопрос законодательства, и справочник здесь останавливается: инструкций по обходу он не даёт принципиально. Если «вдруг пропал» домен, который вы нашли как зеркало, — вероятнее, это был двойник, и его закрытие как раз в пользу безопасности. Если сбой технический, домен вернётся сам после истечения <a href="#dns">TTL</a> и восстановления серверов. Во всех случаях правильный следующий шаг один: сверить официальное имя по реестру лицензии и <a href="#rdap">RDAP</a>, а не искать обходные адреса, потому что именно на поиске обхода и живёт фишинг.</p>
+      <p>Процедура ограничения по статье 15.1 пошаговая, и у каждого шага короткий срок — порядка суток. График ниже показывает типовую последовательность в сутках: уведомление хостинг-провайдера, его срок сообщить владельцу, срок владельца удалить информацию и внесение в реестр с ограничением доступа операторами. Точные сроки задаёт сам закон и подзаконные акты; здесь они приведены как порядок величин, чтобы показать, насколько быстро разворачивается процедура.</p>
+    </div>
+
+    <figure class="sof-fig" id="fig-151">
+      <svg width="100%" height="214" viewBox="0 0 760 214" role="img" aria-labelledby="f151-t f151-d" preserveAspectRatio="xMinYMin meet">
+        <title id="f151-t">Сроки процедуры ограничения доступа по статье 15.1 149-ФЗ</title>
+        <desc id="f151-d">Уведомление хостинг-провайдера — 1 сутки; срок хостинга сообщить владельцу — 1 сутки; срок владельца удалить информацию — 1 сутки; внесение в реестр и ограничение операторами — до 1 суток.</desc>
+        <g font-size="13" fill="var(--ink-2)" font-weight="600"><text x="0" y="30">Уведомление хостинга</text><text x="0" y="74">Хостинг → владельцу</text><text x="0" y="118">Владелец удаляет</text><text x="0" y="162">Реестр и ограничение</text></g>
+        <g stroke="var(--line)"><line x1="330" y1="8" x2="330" y2="180"/><line x1="440" y1="8" x2="440" y2="180"/><line x1="550" y1="8" x2="550" y2="180"/><line x1="660" y1="8" x2="660" y2="180"/></g>
+        <g font-size="12" fill="var(--ink-3)" class="sof-num" text-anchor="middle"><text x="330" y="198">0</text><text x="440" y="198">1</text><text x="550" y="198">2</text><text x="660" y="198">3</text></g>
+        <text x="660" y="212" font-size="11" fill="var(--ink-3)" text-anchor="end">суток</text>
+        <g><rect x="330" y="18" width="110" height="18" rx="4" fill="var(--d2)"/><rect x="440" y="62" width="110" height="18" rx="4" fill="var(--d2)"/><rect x="550" y="106" width="110" height="18" rx="4" fill="var(--d4)"/><rect x="660" y="150" width="90" height="18" rx="4" fill="var(--bad)"/></g>
+        <g font-size="12" class="sof-num" fill="var(--ink-2)"><text x="446" y="32">1 сут</text><text x="556" y="76">1 сут</text><text x="666" y="120">1 сут</text><text x="752" y="164" text-anchor="end">до 1 сут</text></g>
+      </svg>
+      <figcaption>Порядок и сроки процедуры ограничения доступа по ст. 15.1 149-ФЗ, в сутках нарастающим итогом. Значения — порядок величин по тексту закона и подзаконных актов, а не юридическая консультация.</figcaption>
+      <div class="sof-tw sof-inset"><table class="sof-num"><caption>Те же сроки таблицей</caption>
+        <thead><tr><th scope="col">Шаг</th><th scope="col" class="sof-r">Срок, сутки</th><th scope="col" class="sof-r">Итого, сутки</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Уведомление хостинг-провайдера</th><td class="sof-r">1</td><td class="sof-r">1</td></tr>
+          <tr><th scope="row">Хостинг уведомляет владельца</th><td class="sof-r">1</td><td class="sof-r">2</td></tr>
+          <tr><th scope="row">Владелец удаляет информацию</th><td class="sof-r">1</td><td class="sof-r">3</td></tr>
+          <tr><th scope="row">Внесение в реестр, ограничение</th><td class="sof-r">до 1</td><td class="sof-r">≈ 3</td></tr>
+        </tbody></table></div>
+    </figure>
+    <p class="sof-prose">Проверить, внесён ли конкретный адрес в единый реестр, можно в открытой части реестра Роскомнадзора; данные регистрации домена — через публичный сервис RDAP, а историю сертификата — в поиске по журналам Certificate Transparency. Эти реестры и сервисы перечислены в подвале справочника.</p>
+  </div>
+</section>
+
+<!-- 10 Указатель -->
+<section class="sof-art" id="ukazatel">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">10</span><div><span class="sof-term">перекрёстный указатель</span><h2>Указатель терминов по разделам</h2></div></div>
+    <p class="sof-prose">Указатель собирает понятия справочника и отправляет к разделу, где термин разобран по существу, а не повторяет определения. Рядом с каждым — номер раздела.</p>
+    <ul class="sof-index">
+      <li><a href="#dva-domena">Агрегатор</a><span class="sof-to">разд. 01</span></li>
+      <li><a href="#dns">Апекс-домен</a><span class="sof-to">разд. 04</span></li>
+      <li><a href="#blokirovka">Блокировка (149-ФЗ)</a><span class="sof-to">разд. 09</span></li>
+      <li><a href="#cdn">Домен сборки</a><span class="sof-to">разд. 03</span></li>
+      <li><a href="#dva-domena">Домен оператора</a><span class="sof-to">разд. 01</span></li>
+      <li><a href="#dva-domena">Домен провайдера</a><span class="sof-to">разд. 01</span></li>
+      <li><a href="#dns">Доменная зона</a><span class="sof-to">разд. 04</span></li>
+      <li><a href="#rdap">Дата создания домена</a><span class="sof-to">разд. 06</span></li>
+      <li><a href="#zerkalo">Зеркало</a><span class="sof-to">разд. 07</span></li>
+      <li><a href="#stranica-igry">Инфо-окно игры</a><span class="sof-to">разд. 02</span></li>
+      <li><a href="#tls">Certificate Transparency</a><span class="sof-to">разд. 05</span></li>
+      <li><a href="#cdn">CDN</a><span class="sof-to">разд. 03</span></li>
+      <li><a href="#dns">DNS</a><span class="sof-to">разд. 04</span></li>
+      <li><a href="#podpis">Контрольная сумма</a><span class="sof-to">разд. 08</span></li>
+      <li><a href="#zerkalo">Омоглиф и IDN</a><span class="sof-to">разд. 07</span></li>
+      <li><a href="#podpis">Подпись сборки</a><span class="sof-to">разд. 08</span></li>
+      <li><a href="#blokirovka">Реестр (единый)</a><span class="sof-to">разд. 09</span></li>
+      <li><a href="#podpis">Subresource Integrity</a><span class="sof-to">разд. 08</span></li>
+      <li><a href="#dns">Сервер имён (NS)</a><span class="sof-to">разд. 04</span></li>
+      <li><a href="#rdap">Служба приватности</a><span class="sof-to">разд. 06</span></li>
+      <li><a href="#stranica-igry">Страница запуска</a><span class="sof-to">разд. 02</span></li>
+      <li><a href="#dns">Срок жизни записи (TTL)</a><span class="sof-to">разд. 04</span></li>
+      <li><a href="#zerkalo">Тайпсквоттинг</a><span class="sof-to">разд. 07</span></li>
+      <li><a href="#tls">TLS и SAN</a><span class="sof-to">разд. 05</span></li>
+      <li><a href="#zerkalo">Фишинг</a><span class="sof-to">разд. 07</span></li>
+      <li><a href="#rdap">RDAP и WHOIS</a><span class="sof-to">разд. 06</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 11 FAQ -->
+<section class="sof-art" id="faq">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">11</span><div><span class="sof-term">короткие ответы</span><h2>Короткие ответы на частые вопросы об официальном адресе</h2></div></div>
+    <div class="sof-faq">
+      <details id="q-dva"><summary><span>Что вообще считать официальным сайтом слота, если сам слот делает провайдер, а не оператор?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Официальных адресов два, и они разные по роли. Домен провайдера — это адрес студии, которая выпустила слот и держит его сервер и страницу игры с инфо-окном. Домен оператора — адрес площадки, где у слота есть касса, счёт и баланс. Подлинность оператора подтверждают реестр лицензии, TLS-сертификат и запись RDAP; подлинность самого слота — то, что он грузится с домена провайдера, а не с чужого сервера. Эти проверки независимы: домен оператора может быть настоящим, а слот на нём — скриптовой копией.</p></div></details>
+      <details id="q-tls"><summary><span>Почему адрес открывается, а в браузере написано, что соединение небезопасно?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Предупреждение относится к TLS-сертификату, а не к содержанию. Чаще всего это значит, что сертификат просрочен, выписан на другое имя или самоподписан. На странице входа, где вводят пароль, это повод остановиться: подделки часто поднимают HTTPS на самоподписанном или наспех выпущенном сертификате. Имя в сертификате должно совпадать с доменом в адресной строке посимвольно, а сам выпуск виден в публичном логе Certificate Transparency.</p></div></details>
+      <details id="q-omo"><summary><span>Как заранее отличить настоящий домен от зеркала с подменой одной буквы?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Подмена буквы — это омоглиф: латинская a вместо кириллической, цифра 1 вместо l, домен в другой зоне. Глазом такие адреса почти не отличаются. Надёжнее сверять не написание, а регистрацию: дату создания домена и регистратора в RDAP, имя в TLS-сертификате и историю его выпуска в CT-логе. Официальный домен обычно старше, а свежесозданный домен-двойник выдаёт себя датой регистрации в несколько дней или недель.</p></div></details>
+      <details id="q-blok"><summary><span>Что означает, если официальный адрес перестал открываться?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Недоступность имеет несколько причин, и их важно различать. Первая — ограничение доступа по решению в рамках 149-ФЗ: домен внесён в единый реестр, и операторы связи закрывают к нему доступ; это административная мера, а не признак мошенничества. Вторая — домен-двойник сам исчез или заблокирован как фишинговый. Третья — технический сбой DNS или хостинга. Правильная реакция — не искать обход, а проверить официальный домен по реестру лицензии и RDAP. Инструкций по обходу блокировок справочник не даёт.</p></div></details>
+      <details id="q-pod"><summary><span>Зачем проверять подпись и контрольную сумму клиента, если можно играть в браузере?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Проверка нужна тем, кто ставит приложение или APK. Официальная сборка подписана цифровой подписью издателя, и у неё публикуют контрольную сумму — хеш файла. Если подпись отсутствует или имя издателя не совпадает, файл мог быть пересобран с посторонним кодом. В браузере роль подписи играет связка TLS-сертификата и Subresource Integrity, когда скрипты страницы снабжены хешем в атрибуте integrity.</p></div></details>
+      <details id="q-op"><summary><span>Домен оператора настоящий — значит, слотам на нём можно доверять?</span><svg class="sof-pm" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12"/></svg></summary><div class="sof-body"><p>Не автоматически. Настоящий домен оператора подтверждает только личность площадки. Отдельно проверяют, что конкретный слот грузится со страницы игры у провайдера, а его файлы приходят с домена сборки провайдера или его CDN, а не с сервера самой площадки. Скриптовая копия живёт на подлинном с виду домене, но обращается к чужому адресу загрузки — это видно в сетевых запросах страницы и в инфо-окне игры.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- Канал -->
+<section class="sof-art" id="kanal">
+  <div class="sof-full">
+    <div class="sof-head"><span class="sof-ix sof-num">12</span><div><span class="sof-term">пересмотр справочника</span><h2>Когда справочник меняется и где выходят разборы доменов</h2></div></div>
+    <div class="sof-prose">
+      <p>Понятия в справочнике устойчивы, а их параметры меняются: сокращается предельный срок TLS-сертификатов, обновляются процедуры реестра, появляются новые приёмы подмены доменов. Правки датируются, прежние значения в графиках остаются как история, а не стираются. Раздел о сроках по 149-ФЗ сверяется с действующей редакцией закона.</p>
+      <p>Разборы конкретных доменных подмен и свежих способов фишинга — с примерами, как читается RDAP и CT-лог, — выходят в телеграм-канале проекта. Это единственная внешняя ссылка справочника; партнёрских ссылок и переходов на площадки здесь нет.</p>
+    </div>
+    <div class="sof-channel">
+      <span class="sof-ct">Новые приёмы подмены адреса и правки справочника — в канале</span>
+      <a class="sof-btn" href="https://t.me/top_casino_2027" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 3.3 2.9 10.6c-1.1.4-1 1 0 1.4l4.8 1.5 1.8 5.6c.2.6.4.8.9.4l2.7-2 5.6 4.1c.9.5 1.4.2 1.7-.9L22.9 4.6c.3-1-.3-1.6-1.2-1.3Z"/></svg>Телеграм-канал</a>
+    </div>
+  </div>
+</section>
+
+<!-- Забота -->
+<section class="sof-art" id="care">
+  <div class="sof-full">
+    <div class="sof-care">
+      <h2>Ответственная игра <span class="sof-age">18+</span></h2>
+      <p class="sof-dim" style="margin-top:var(--sp3)">Справочник объясняет, как читать адрес ресурса, и не призывает к игре. У азартных игр отрицательное математическое ожидание: на дистанции преимущество у заведения. Если игра перестала быть развлечением, помогают лимиты депозита и времени, тайм-аут и самоисключение. Лудомания лечится, и обращение за помощью не стыдно.</p>
+    </div>
+    <p class="sof-sm sof-faint" style="margin-top:var(--sp6)">Обновлено 1 октября 2026 · Редакция справочника «Апекс». Без рекламы, партнёрских ссылок и переходов на площадки.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="sof-full">
+    <div><p><b>Апекс</b> — независимый справочник понятий «официального сайта» для слотов: домен, страница игры, сертификат, регистрация. Не рейтинг и не каталог площадок.</p></div>
+    <div><p><b>Публичные реестры и сервисы проверки:</b></p>
+      <p><a href="https://eais.rkn.gov.ru/" rel="nofollow noopener" target="_blank">Единый реестр (Роскомнадзор)</a> · <a href="https://lookup.icann.org/" rel="nofollow noopener" target="_blank">RDAP/WHOIS (ICANN)</a> · <a href="https://crt.sh/" rel="nofollow noopener" target="_blank">Поиск по CT-логам</a></p></div>
+    <div><p><b>18+.</b> Азартные игры связаны с риском. Материалы не являются призывом к участию в азартных играх.</p><p>© 2026 · Исследовательско-справочный проект. Домены в примерах — служебная зона <code>.example</code>.</p></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var top=document.getElementById('top');
+  addEventListener('scroll',function(){top.classList.toggle('sof-lifted',scrollY>8)},{passive:true});
+  // активный пункт навигации
+  var links=[].slice.call(document.querySelectorAll('.sof-nav a'));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))}).filter(Boolean);
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id?'true':'false')})}})},{rootMargin:'-42% 0px -52% 0px'});
+    secs.forEach(function(s){io.observe(s)});
+  }
+  // переключатель темы
+  var lamp=document.getElementById('lamp');
+  var root=document.documentElement;
+  function sysDark(){return matchMedia('(prefers-color-scheme:dark)').matches}
+  try{var saved=localStorage.getItem('sof-theme');if(saved){root.setAttribute('data-theme',saved)}}catch(e){}
+  lamp.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme');
+    var isDark=cur?cur==='dark':sysDark();
+    var next=isDark?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('sof-theme',next)}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
